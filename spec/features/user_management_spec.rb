@@ -3,6 +3,7 @@ require_relative 'helpers/session'
 
 include SessionHelpers
 
+
 feature "User signs up" do
 
 	scenario "when being logged out" do    
@@ -24,6 +25,7 @@ feature "User signs up" do
   end
 
 end
+
 
 feature "User signs in" do
 
@@ -48,6 +50,7 @@ feature "User signs in" do
   end
 
 end
+
 
 feature 'User signs out' do
 
